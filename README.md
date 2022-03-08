@@ -1,5 +1,8 @@
 # Tech Talks: Tri 3 #
 
-## Tech Talk 0 Data Structures ##
+Markup : [Tech Talk 0 - Data Structures](#Tech Talk 0 - Data Structures)
+          Tech Talk 0 - Data Structures<a name="Tech Talk 0 - Data Structures"></a>    
 
-* Data Structures + Algorithms = 
+## Tech Talk 0 - Data Structures ##
+
+* Data Structures 
