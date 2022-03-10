@@ -30,7 +30,7 @@
   * array stores primitive types, index for each value (nondirect)
   * hashmap stores in key value pairs (direct access)
 
-```java code```
+     ```java code```
 
   * goal: make a data structure and makes a menu -> try and catch / except or array -> should be able to work with a different value of numbers
 
