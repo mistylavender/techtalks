@@ -2,6 +2,7 @@
 
 ## Tech Talks ##
 [Tech Talk 0 - Data Structures](#tech-talk-0---data-structures)
+
 [More about Data Structures](https://youtu.be/dQw4w9WgXcQ)
 
 ## Tech Talk 0 - Data Structures ##
