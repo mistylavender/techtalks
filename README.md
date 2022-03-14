@@ -1,11 +1,17 @@
 # Tech Talks: Tri 3 #
 
-## Tech Talks ##
+Important Links for GitHub:
+[Team Scrum Board](https://github.com/mistylavender/RedTailedHawks/projects/1)
+[Team Wiki](https://github.com/mistylavender/RedTailedHawks/wiki)
+
+## Tech Talks: Table of Contents ##
+
 [Tech Talk 0 - Data Structures](#tech-talk-0---data-structures)
 
-[More about Data Structures](https://youtu.be/dQw4w9WgXcQ)
 
 ## Tech Talk 0 - Data Structures ##
+
+[Week 0 Ticket](https://github.com/mistylavender/RedTailedHawks/projects/1#card-79098981)
 
 * Prep for AP EXAM:
   * review one online FRQ, MCQ every week and revise concepts that I got wrong to remember and improve on
@@ -30,7 +36,132 @@
   * array stores primitive types, index for each value (nondirect)
   * hashmap stores in key value pairs (direct access)
 
-     ```java code```
+     ```//package hacks
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+// The Menu Class has a HashMap of Menu Rows
+public class Menu {
+    // Format: Key {0, 1, 2, ...} created based on order of input menu, Value {MenuRow0, MenuRow1, MenuRow2,...} each corresponds to key
+    Map<Integer, MenuRow> menu = new HashMap<>();
+
+    public Menu(MenuRow[] rows) {
+        int i = 0;
+        for (MenuRow row : rows) {
+            // Build HashMap for lookup convenience
+            menu.put(i++, new MenuRow(row.getTitle(), row.getAction()));
+        }
+    }
+
+    /**
+     *  Get Row from Menu,
+     *
+     * @param  i,  HashMap key (k)
+     *
+     * @return  MenuRow, the selected menu
+     */
+    public MenuRow get(int i) {
+        return menu.get(i);
+    }
+
+    /**
+     *  Iterate and print rows in HashMap
+     *
+     */
+    public void print() {
+        for (Map.Entry<Integer, MenuRow> pair : menu.entrySet()) {
+            System.out.println(pair.getKey() + " ==> " + pair.getValue().getTitle());
+        }
+    }
+
+    public static void main(String[] args) {
+        Main.main(args);
+    }
+
+}
+
+// The MenuRow Class has title and action for individual line item in menu
+class MenuRow {
+    String title;       // menu item title
+    Runnable action;    // menu item action, using Runnable
+
+    /**
+     *  Constructor for MenuRow,
+     *
+     * @param  title,  is the description of the menu item
+     * @param  action, is the run-able action for the menu item
+     */
+    public MenuRow(String title, Runnable action) {
+        this.title = title;
+        this.action = action;
+    }
+
+    /**
+     *  Getters
+     */
+    public String getTitle() {
+        return this.title;
+    }
+    public Runnable getAction() {
+        return this.action;
+    }
+
+    /**
+     *  Runs the action using Runnable (.run)
+     */
+    public void run() {
+        action.run();
+    }
+}
+
+// The Main Class illustrates initializing and using Menu with Runnable action
+class Main {
+    /**
+     *  Menu Control Example
+     */
+    public static void main(String[] args) {
+        // Row initialize
+        MenuRow[] rows = new MenuRow[]{
+                new MenuRow("Exit", () -> main(null)),
+                new MenuRow("Swap", () -> IntByReference.main(null)),  // lambda style, () -> to point to Class.Method
+                new MenuRow("Matrix", () -> Matrix.main(null)),
+               // new MenuRow("Number", () -> IntByReference.main(null))
+
+        };
+
+        // Menu construction
+        Menu menu = new Menu(rows);
+
+        // Run menu forever, exit condition contained in loop
+        while (true) {
+            System.out.println("Hacks Menu:");
+            // print rows
+            menu.print();
+
+            // Scan for input
+            try {
+                Scanner sc = new Scanner(System.in);
+                int selection = sc.nextInt();
+
+                // menu action
+                try {
+                    MenuRow row = menu.get(selection);
+                  
+                    if (row.getTitle().equals("Exit"))
+                        return;
+                   
+                    row.run();
+                } catch (Exception e) {
+                    System.out.printf("Invalid selection %d\n", selection);
+                }
+            } catch (Exception e) {
+                System.out.println("Not a number");
+            }
+        }
+    }
+}```
 
   * goal: make a data structure and makes a menu -> try and catch / except or array -> should be able to work with a different value of numbers
 
