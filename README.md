@@ -38,12 +38,12 @@ Important Links for GitHub:
 
      ```//package hacks
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+ import java.util.HashMap;
+ import java.util.Map;
+ import java.util.Scanner;
 
-// The Menu Class has a HashMap of Menu Rows
-public class Menu {
+ // The Menu Class has a HashMap of Menu Rows
+ public class Menu {
     // Format: Key {0, 1, 2, ...} created based on order of input menu, Value {MenuRow0, MenuRow1, MenuRow2,...} each corresponds to key
     Map<Integer, MenuRow> menu = new HashMap<>();
 
@@ -114,10 +114,10 @@ class MenuRow {
     public void run() {
         action.run();
     }
-}
+ }
 
-// The Main Class illustrates initializing and using Menu with Runnable action
-class Main {
+ // The Main Class illustrates initializing and using Menu with Runnable action
+ class Main {
     /**
      *  Menu Control Example
      */
@@ -161,7 +161,7 @@ class Main {
             }
         }
     }
-}```
+ }```
 
   * goal: make a data structure and makes a menu -> try and catch / except or array -> should be able to work with a different value of numbers
 
