@@ -7,13 +7,16 @@
 
 ## Tech Talk 0 - Data Structures ##
 
+* Prep for AP EXAM:
+  * review one online FRQ, MCQ every week and revise concepts that I got wrong to remember and improve on
+  * understand the weekly coding assignment and if not running by the due time, eventually get it running to fully understand why the code was not working
+  * will discuss every week on Wed, Thurs with study group on how to improve weekly coding assignment and what to look for in the following week that we must all revise as a whole group
+
 * Data Structures
   * meant to organize data
   * primitive data: a variable holding a single value (integer, float, string, boolean) 
   * non-primitive data: a sequence / table of data or databases (array, list, dictionary, set, file)
-  * algorithms interact with the data structures to get data and 
-
-
+  * algorithms interact with the data structures to get data and use it fully
   * stacks and queues are more important in lists
   * tuple & dictionary - hashmap for python and java respectively
   * Imperative and Procedural Programming:
@@ -22,9 +25,6 @@
   * "Press 1 to go here Press 2 to go here" / menus -> sequence of events to choose and then choose a specific procedure
   * object oriented -> hello "object" which method would you like me to execute for you -> knows concept of classes and objects, knows gives specific solution/method for object
   * uml/class chart (object) vs flowchart (procedural)
-
-
-
   * Data Structures: need structures to input data and need algorithm to put to use
   * array vs hashmap: 
   * array stores primitive types, index for each value (nondirect)
