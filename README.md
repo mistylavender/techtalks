@@ -12,6 +12,7 @@ Important Links for GitHub:
 ## Tech Talk 0 - Data Structures ##
 
 [Week 0 Ticket](https://github.com/mistylavender/RedTailedHawks/projects/1#card-79098981)
+[Week 0: Repl for Coding Challenge](https://replit.com/@MistyLavender/Data-Structures#Main.java)
 
 * Prep for AP EXAM:
   * review one online FRQ, MCQ every week and revise concepts that I got wrong to remember and improve on
