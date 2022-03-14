@@ -80,9 +80,9 @@ public class Menu {
         Main.main(args);
     }
 
-}
+ }
 
-// The MenuRow Class has title and action for individual line item in menu
+ // The MenuRow Class has title and action for individual line item in menu
 class MenuRow {
     String title;       // menu item title
     Runnable action;    // menu item action, using Runnable
