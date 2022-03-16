@@ -29,3 +29,20 @@
      ```javacode```
 
   * goal: make a data structure and makes a menu -> try and catch / except or array -> should be able to work with a different value of numbers
+
+
+## Tech Talk 1 - Linked Lists #
+* implements -> have no definition
+* List allows anything to be inputted and then given back without affecting the queue
+ * 1. Uses custom LinkedList of Generic type T
+ * 2. Implements Iterable
+ * 3. "has a" LinkedList for head and tail
+* 
+  * hashmap stores in key value pairs (direct access)
+
+
+
+
+
+
+
