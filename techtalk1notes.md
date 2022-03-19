@@ -1,3 +1,7 @@
+## Tech Talk 1 - Linked Lists ##
+
+[Repl for Tech Talks](https://replit.com/join/shtgcacbqv-mistylavender)
+
 Linked Lists:
 * Dynamic List: Manages objects, able to add or delete
   * Preferred over arraylists b/c of dynamicity
@@ -22,3 +26,10 @@ Stacks:
   * only add or remove through the last one
   * similar to a stack of plates, take the top out out and only add to the top
   * push (add) & pop (remove)
+
+Generics:
+* parameterized types: allows user-defined types (Integers, Strings, etc.)
+* create classes with different data types
+* object: superclass of all other classes
+* Generic method: takes a parameter and returns some value after performing a task -> general parameters can be inserted
+* Generic class: implemented like a non-generic class, but it can accept one or more types of parameters
