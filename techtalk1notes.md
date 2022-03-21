@@ -10,7 +10,8 @@ Linked Lists:
   * Each set of data inputted has two elements: a previous pointer and a next pointer that connects itself to the list
   * Pointers can be connected to another piece of data or can be null when it is not connected to anything
 
-```public class LinkedList<T>
+```
+public class LinkedList<T>
 {
     private T data;
     private LinkedList<T> prevNode, nextNode;
@@ -101,7 +102,8 @@ Linked Lists:
         return this.nextNode;
     }
 
-}```
+}
+```
 
 Queue: 
 * Built using LinkedList objects
