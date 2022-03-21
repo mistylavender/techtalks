@@ -2,7 +2,7 @@
 
 [Repl for Tech Talks](https://replit.com/join/shtgcacbqv-mistylavender)
 
-Linked Lists:
+# Linked Lists:
 * Dynamic List: Manages objects, able to add or delete
   * Preferred over arraylists b/c of dynamicity
 
@@ -112,6 +112,10 @@ Queue:
 * always enqueues (adds) from the tail (back of the list) node
 * keeps track of the current node for iteration
 * similar to a line of customers, first in line means first one to get served
+
+```
+
+
 
 Stacks:
 * Can be built using LinkedList objects
