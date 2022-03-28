@@ -2,8 +2,10 @@
 
 Shunting Yard Algorithm:
 * use precedence of PEMDAS
+* separate the different values into tokens that can be arranged
 * puts all numbers into queue and then operators into the stack
-* based on the precedence assigned, 
+* based on the precedence assigned, the operators will be pushed out of the stack after the values and put into their following orders
+* in order to use RPN (reverse polish notation)
 
 
 ```
