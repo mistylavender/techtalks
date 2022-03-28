@@ -1,7 +1,9 @@
 ## Calculator Algorithm
 
 Shunting Yard Algorithm:
-* 
+* use precedence of PEMDAS
+* puts all numbers into queue and then operators into the stack
+* based on the precedence assigned, 
 
 
 ```
