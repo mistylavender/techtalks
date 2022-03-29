@@ -1,8 +1,8 @@
 ## Data Structures Challenge 2
 
-Repl: https://replit.com/join/riazcnzppy-mistylavender
+[Repl](https://replit.com/join/riazcnzppy-mistylavender)
 
-Review Ticket: https://github.com/mistylavender/RedTailedHawks/issues/13#issue-1185110121
+[Review Ticket](https://github.com/mistylavender/RedTailedHawks/issues/13#issue-1185110121)
 
 # Calculator Algorithm
 
