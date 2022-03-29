@@ -5,7 +5,9 @@ Shunting Yard Algorithm:
 * separate the different values into tokens that can be arranged
 * puts all numbers into queue and then operators into the stack
 * based on the precedence assigned, the operators will be pushed out of the stack after the values and put into their following orders
-* in order to use RPN (reverse polish notation)
+* in order to use RPN (reverse polish notation) there must be the operators after the numbers
+* the RPN will then be used by placing the numbers in a stack and once an operator is seen, the last two numbers in the stack are popped out and then have the operator used on them
+* the following strategy is used till you get a single answer without operators and that is printed out as the result
 
 
 ```
