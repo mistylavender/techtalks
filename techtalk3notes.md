@@ -1,5 +1,14 @@
 # Tech Talks 3
 
+What are Sorts? 
+* sorts are used with numerical lists of data
+* often there is a lot of data that needs to be sorted from minimum to maximum and there are many algorithms that can be used to sort them
+* once sorted, it is easier to make an analysis of the data and use it accordingly
+* Big O Complexity: 
+  * used to describe the complexity of an algorithm when measuring its efficiency
+  * time it takes to complete the sorting (usually determined by worst possible case / longest possible time)
+  * best ones for different situations / amounts of data
+
 ## Selection Sort
 * linear sort algorithm
 * finds the smallest number in the list and moves it to the appropriate position, swapping it with the other data in that position
