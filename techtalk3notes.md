@@ -39,9 +39,15 @@ What are Sorts?
   * once one of the lists has all its elements in the merged list, the remaining elements in the other list are simply inserted after in the merged list
   * since these individual lists are already sorted as they go, there is no need to sort anything else
 * best for LinkedLists 
-* O(n*Log n)
+* O(n*Log n) complexity
   * dividing the lists in halves: log n
   * sorting and merging the lists requires going through all the lists once to compare and then storing: n
 
 ## Bubble Sort
-* 
+* compares in "bubbles" one at a time till fully sorted
+* starts at index i = 0 and compares i and i + 1 and swaps if they are in the wrong order
+* keeps swapping till the end of the list
+* partially sorted, but not fully: need to keep repeating and swapping through the list till there are no swaps left to be done
+* O(n²) complexity: meant to be one of the worst sorting methods ever
+  * if a value that is meant to be at the front of the list is towards the end of the list, it has to swap with each individual element between that to get to the right position
+  * swapping once goes through entire list, but then repeating till sorted goes through list n times (worst possible case)
