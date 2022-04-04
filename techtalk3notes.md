@@ -13,7 +13,7 @@ What are Sorts?
 * linear sort algorithm
 * finds the smallest number in the list and moves it to the appropriate position, swapping it with the other data in that position
 * index moves from 0 to n-1, which then will stop since it will have already been sorted
-* O(n^2) time complexity: pretty inefficient especially with large amounts of data
+* O(n²) time complexity: pretty inefficient especially with large amounts of data
   * loops through the list each time to find the smallest value between index i and n-1
   * swaps data in position of i-1
   * loops this process through an entire array / list through all the elements to be fully sorted from index 0 to i-1
@@ -29,9 +29,19 @@ What are Sorts?
   * once there are many values and depending on how unsorted they are, they may have to go through entire lists to be able to find their position
 
 ## Merge Sort
-* continously splits the sorts in half
-* 
-* O(n*Log n) 
+* continously splits the sorts in half till there are single elements
+* then as they are merged back together, the smaller lists are compared and then sorted into the larger lists
+* finally they merge together into a single list
+* uses recursion (calls its own method to form a loop until a certain condition is fulfilled) to separate the lists into singular elements to compare
+* merges by using pointers on the two lists that are being compared
+  * inserts into another list when a value is smaller compared to the value on the other list
+  * moves the pointer to the next value and continues comparing till complete
+  * once one of the lists has all its elements in the merged list, the remaining elements in the other list are simply inserted after in the merged list
+  * since these individual lists are already sorted as they go, there is no need to sort anything else
+* best for LinkedLists 
+* O(n*Log n)
+  * dividing the lists in halves: log n
+  * sorting and merging the lists requires going through all the lists once to compare and then storing: n
 
 ## Bubble Sort
 * 
