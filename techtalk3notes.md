@@ -1,5 +1,13 @@
 # Tech Talks 3
 
+[Repl](https://replit.com/join/riazcnzppy-mistylavender)
+
+[Review Ticket](https://github.com/mistylavender/RedTailedHawks/projects/1#card-80136265)
+
+[Commits for TechTalks](https://github.com/mistylavender/techtalks/commits/main)
+
+[Commits for PBL](https://github.com/mistylavender/RedTailedHawks/commits/master)
+
 What are Sorts? 
 * sorts are used with numerical lists of data
 * often there is a lot of data that needs to be sorted from minimum to maximum and there are many algorithms that can be used to sort them
