@@ -76,3 +76,6 @@ What are Sorts?
 * **O(1) space complexity:** 
   * constant amount of space needed
   * use space when storing for swaps and indexes for moving through the list
+
+
+Sorts Analysis: 
