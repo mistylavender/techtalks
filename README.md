@@ -1,5 +1,4 @@
 # Tech Talks: Tri 3 #
-Note: this is the branch for testing Repl connections
 
 Important Links for GitHub:
 [Team Scrum Board](https://github.com/mistylavender/RedTailedHawks/projects/1)
