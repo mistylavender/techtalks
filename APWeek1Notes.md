@@ -13,5 +13,33 @@
 
 **Q24: Adding overloaded method one to SomeClass**
 <br> ![image](https://user-images.githubusercontent.com/89210459/164270210-7201c6d2-45e8-400c-8669-00daad1c94a5.png) <br> <br>
-**Correct Answer:** *D. II and III only* <br>  <br> <br>
-**My Answer:** *C. I and III only* <br> I thought that I could not call a parent class could call a subclass, when it was actually the other way around.
+**Correct Answer:** *D. II and III only* <br> ?? <br> <br>
+**My Answer:** *C. I and III only* <br> ??
+
+---
+
+**Q??:**
+<br> insert image <br> <br>
+**Correct Answer:** *letter. other parts* <br> ?? <br> <br>
+**My Answer:** *Letter. other parts* <br> ??
+
+---
+
+**Q??:**
+<br> insert image <br> <br>
+**Correct Answer:** *letter. other parts* <br> ?? <br> <br>
+**My Answer:** *Letter. other parts* <br> ??
+
+---
+
+**Q??:**
+<br> insert image <br> <br>
+**Correct Answer:** *letter. other parts* <br> ?? <br> <br>
+**My Answer:** *Letter. other parts* <br> ??
+
+---
+
+**Q??:**
+<br> insert image <br> <br>
+**Correct Answer:** *letter. other parts* <br> ?? <br> <br>
+**My Answer:** *Letter. other parts* <br> ??
