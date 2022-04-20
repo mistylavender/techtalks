@@ -1,8 +1,6 @@
 ## 2015 Practice CollegeBoard MCQ
 
-| Q# | Question | Correct Answer and why it is Right | Wrong Answer and why I got it Wrong |
-| :---: | :---: | :---: | :---: |
-| Q26 | |  | N/A <br> <br>  |
+
 
 **Q10: Student interface, Athlete and TennisPlayer Class**
 <br> ![image](https://user-images.githubusercontent.com/89210459/164276898-8261a638-c593-4941-91f8-e3075ad07fb5.png) <br>
