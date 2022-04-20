@@ -7,13 +7,13 @@
 **Q10: Student interface, Athlete and TennisPlayer Class**
 <br> 
 ` Consider the following interface and class declarations. 
-public interface Student 
-{ /* implementation not shown */ }
-public interface Athlete 
-{ /* implementation not shown */ }
-public interface TennisPlayer extends Athlete implements Student 
-{ /* implementation not shown */ }
-Assume that each class has a zero-parameter constructor. Which of the following is NOT a valid declaration? `
+<br> public interface Student 
+<br> { /* implementation not shown */ }
+<br> public interface Athlete 
+<br> { /* implementation not shown */ }
+<br> public interface TennisPlayer extends Athlete implements Student 
+<br> { /* implementation not shown */ }
+<br> Assume that each class has a zero-parameter constructor. Which of the following is NOT a valid declaration? `
 
 <br> <br>
 **Correct Answer:** *D. Student d = new Athlete();* <br> A subclass cannot call a parent class. <br> <br>
