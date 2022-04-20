@@ -1,15 +1,6 @@
+**2015 Practice CollegeBoard MCQ
+
 | Q# | Question | Correct Answer and why it is Right | Wrong Answer and why I got it Wrong |
 | :---: | :---: | :---: | :---: |
-| Q10 | Consider the following interface and class declarations.
-
-An 8-line code segment reads as follows. 
-Line 1: public interface Student. 
-Line 2: open brace, forward slash, asterisk, implementation not shown, asterisk, forward slash, close brace. 
-Line 3: blank.
-Line 4: public class Athlete. 
-Line 5: open brace, forward slash, asterisk, implementation not shown, asterisk, forward slash, close brace. 
-Line 6: blank.
-Line 7: public class Tennis Player extends Athlete implements Student. 
-Line 8: open brace, forward slash, asterisk, implementation not shown, asterisk, forward slash, close brace.
-
-Assume that each class has a zero-parameter constructor. Which of the following is NOT a valid declaration? | 283 | 290 |
+| Q10 | ![image](https://user-images.githubusercontent.com/89210459/164267590-1373aedc-ae4a-4e95-afdc-6a962f30fabd.png) | C. 
+though | 290 |
