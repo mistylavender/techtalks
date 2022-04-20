@@ -6,7 +6,7 @@
 
 **Q10: Student interface, Athlete and TennisPlayer Class**
 <br> 
-` Consider the following interface and class declarations.
+` Consider the following interface and class declarations. `
 
 An 8-line code segment reads as follows. 
 Line 1: public interface Student. 
@@ -18,8 +18,7 @@ Line 6: blank.
 Line 7: public class Tennis Player extends Athlete implements Student. 
 Line 8: open brace, forward slash, asterisk, implementation not shown, asterisk, forward slash, close brace.
 
-Assume that each class has a zero-parameter constructor. Which of the following is NOT a valid declaration?
-`
+Assume that each class has a zero-parameter constructor. Which of the following is NOT a valid declaration? `
 <br> <br>
 **Correct Answer:** *D. Student d = new Athlete();* <br> A subclass cannot call a parent class. <br> <br>
 **My Answer:** *C. Athlete c = new TennisPlayer();* <br> I thought that I could not call a parent class could call a subclass, when it was actually the other way around.
