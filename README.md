@@ -6,6 +6,14 @@ Important Links for GitHub:
 
 ## Tech Talks: Table of Contents ##
 
+| Week #            | Theme   | Link   |
+| ------------------- | ----------------- | ----------------- | 
+| 0  | Prep for AP exam, linked lists | [link](https://mistylavender.github.io/techtalks/techtalk0notes) |
+| 1  | linked list, stacks, queue | [link](https://mistylavender.github.io/techtalks/techtalk1notes) |
+| 2  | calculator | [link](https://mistylavender.github.io/techtalks/techtalk2notes) |
+| 3  | different types of sorts | [link](https://mistylavender.github.io/techtalks/techtalk3notes) |
+
+
 [Tech Talk 0 - Data Structures](#tech-talk-0---data-structures)
 
 
