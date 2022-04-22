@@ -14,9 +14,6 @@ Important Links for GitHub:
 | 3  | different types of sorts | [link](https://mistylavender.github.io/techtalks/techtalk3notes) |
 
 
-[Tech Talk 0 - Data Structures](#tech-talk-0---data-structures)
-
-
 ## Tech Talk 0 - Data Structures ##
 
 [Week 0 Ticket](https://github.com/mistylavender/RedTailedHawks/projects/1#card-79098981)
