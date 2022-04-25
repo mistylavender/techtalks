@@ -1,3 +1,13 @@
+## Study Plan for Week
+
+* Monday: Review of CollegeBoard Videos: Classes and Objects Terminology and Review (where I lack most on)
+* Tuesday: Take full 2015 MCQ 
+* Wednesday: Take corrections of the MCQ, retake the ending part of the MCQ to see full score, and finish up terminology with any other review
+* Thursday: Take full 2015 FRQ
+* Friday: Finish FRQ + code on REPL + keep track of errors and report in notes
+
+All of the following should be placed below or in the review ticket: [TICKET](https://github.com/mistylavender/techtalks/issues/3#issue-1207182795)
+
 ## Notes for AP Week: Revision of Terminology for Classes/Objects
 
 * Encapsulation: using a class to hide the state (data)  and the behavior (method)
