@@ -91,13 +91,6 @@ EX: BankAccount b;
 
 ---
 
-**Q??:**
-<br> insert image <br> <br>
-**Correct Answer:** *letter. other parts* <br> ?? <br> <br>
-**My Answer:** *Letter. other parts* <br> ??
-
----
-
 
 ## 2015 Practice CollegeBoard FRQ
 
