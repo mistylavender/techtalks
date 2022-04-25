@@ -53,7 +53,6 @@ EX: BankAccount b;
 * [type] [name] = new [instantiation/memory type]([parameter])
 
 * compiles based on type, allocates memory to instantiation
-![image](https://user-images.githubusercontent.com/89210459/165124993-aef30ee6-d12d-429a-874e-d37276bb2405.png)
 
 
 
