@@ -77,5 +77,22 @@ What are Sorts?
   * constant amount of space needed
   * use space when storing for swaps and indexes for moving through the list
 
+### Efficiency Analysis
 
-Sorts Analysis: 
+I performed analysis on these 4 different sorts by running them under different amounts of data, ranging from 1000 to 10000, then graphing the nanoseconds it took to complete the sorting.
+Below is a graph of all the sorts compared on one graph.
+![Graph 1](/static/graph1.png)
+Red: Merge
+Green: Bubble
+Purple: Selection
+Orange: Insertion
+
+According to the distribution of the graph, the merge sort seems to be the optimal method for sorting these sets of data. However, on some occassions, the insertion sort would work faster or there were some coicidences where bubble or selection sort would work faster.
+From least to most efficient: bubble, insertion, selection, then insertion.
+![Graph 1](/static/graph3.png)
+![Graph 1](/static/graph2.png)
+![Graph 1](/static/graph5.png)
+![Graph 1](/static/graph4.png)
+
+
+At the end, it really came down to how much data was being taken in and the circumstance. With less data, sometimes insertion sort worked better because there was less paths needed to get the final sorted array. Overall though, merge sort was the best show of this case. 
