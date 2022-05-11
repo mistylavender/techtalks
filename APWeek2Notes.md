@@ -72,7 +72,7 @@ EX: BankAccount b;
 
 [Repl](https://replit.com/join/vxdxppoemr-mistylavender)
 
-![2020 FRQs_1](https://user-images.githubusercontent.com/89210459/165123208-9c533d50-aa67-4948-b259-023249e69561.jpg)
+![2020 FRQs_1](https://user-images.githubusercontent.com/89210459/167954822-56bd7196-78b7-4700-a39d-0ca01480a1db.png)
 ![2020 FRQs_2](https://user-images.githubusercontent.com/89210459/165123248-ad1f5c9e-e397-4721-a1e1-33f1caa79487.jpg)
 ![2020 FRQs_3](https://user-images.githubusercontent.com/89210459/165123279-13819b5e-adbb-483d-8e0f-9ca5304511c3.jpg)
 ![2020 FRQs_4](https://user-images.githubusercontent.com/89210459/165123347-f6169d0a-1446-4b54-a7f0-93021b9d6e6b.jpg)
